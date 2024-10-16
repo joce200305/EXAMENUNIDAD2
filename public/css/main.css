@@ -1,0 +1,49 @@
+
+body{
+    background-color: #292929;
+    color: #fff;
+}
+
+.nodo{
+    background-color: #fff;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    border: 2px #00a2ff solid;
+    font-size: 1.4rem;
+}
+
+
+.line1 {
+    position: absolute;
+    top: 47%;
+    left: 48%;
+    width: calc(22% - 20px); /* Ajuste según el tamaño de los input */
+    height: 2px; /* Grosor de la línea */
+    background-color: #00a2ff; /* Color de la línea */
+    transform: rotate(135deg); /* Ángulo de la línea */
+    transform-origin: top left;
+}
+.line2 {
+    position: absolute;
+    top: 47%;
+    left: 52%;
+    width: calc(22% - 20px); /* Ajuste según el tamaño de los input */
+    height: 2px; /* Grosor de la línea */
+    background-color: #00a2ff; /* Color de la línea */
+    transform: rotate(45deg); /* Ángulo de la línea */
+    transform-origin: top left;
+}
+
+body {
+    background-image: url('./workplace-2303851_640.jpg'); /* Reemplaza con la URL de tu imagen */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* La imagen permanece fija al hacer scroll */
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco con transparencia */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
